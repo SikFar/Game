@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/home/sikander/swift-projects/Game/.build/debug/Game.build/master.swiftdeps"
+  },
+  "/home/sikander/swift-projects/Game/Sources/Game/Game.swift": {
+    "dependencies": "/home/sikander/swift-projects/Game/.build/debug/Game.build/Game.d",
+    "object": "/home/sikander/swift-projects/Game/.build/debug/Game.build/Game.swift.o",
+    "swiftmodule": "/home/sikander/swift-projects/Game/.build/debug/Game.build/Game~partial.swiftmodule",
+    "swift-dependencies": "/home/sikander/swift-projects/Game/.build/debug/Game.build/Game.swiftdeps"
+  }
+}

@@ -1,0 +1,24 @@
+client:
+  name: swift-build
+tools: {}
+targets:
+  "test": ["<Game.module>"]
+  "main": ["<Game.module>"]
+default: "main"
+commands: 
+  "<Game.module>":
+    tool: swift-compiler
+    executable: "/home/sikander/Swift/swift-DEVELOPMENT-SNAPSHOT-2016-09-12-a-ubuntu15.10/usr/bin/swiftc"
+    module-name: "Game"
+    module-output-path: "/home/sikander/swift-projects/Game/.build/debug/Game.swiftmodule"
+    inputs: []
+    outputs: ["<Game.module>","/home/sikander/swift-projects/Game/.build/debug/Game.build/Game.swift.o"]
+    import-paths: ["/home/sikander/swift-projects/Game/.build/debug"]
+    temps-path: "/home/sikander/swift-projects/Game/.build/debug/Game.build"
+    objects: ["/home/sikander/swift-projects/Game/.build/debug/Game.build/Game.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-module-cache-path","/home/sikander/swift-projects/Game/.build/debug/ModuleCache"]
+    sources: ["/home/sikander/swift-projects/Game/Sources/Game/Game.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
